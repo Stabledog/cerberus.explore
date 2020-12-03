@@ -1,0 +1,13 @@
+# taskrc for PWD
+# vim: filetype=sh :
+#
+# See this answer on SO: https://stackoverflow.com/a/46626418/237059
+#  "Validating a yaml document in python"
+
+
+function test {
+    #Help
+    python3.8 -m test.py
+}
+
+
